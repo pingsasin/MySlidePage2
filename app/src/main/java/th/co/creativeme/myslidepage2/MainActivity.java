@@ -13,7 +13,7 @@ public class MainActivity extends TabActivity {
         //setContentView(R.layout.activity_main);
 
         TabHost mTabHost = getTabHost();
-        mTabHost.addTab(mTabHost.newTabSpec("first").setIndicator("CREDIT CARD").setContent(new Intent(this  ,FirstActivity.class )));
+        mTabHost.addTab(mTabHost.newTabSpec("first").setIndicator("CREDIT CARD").setContent(new Intent(this,FirstActivity.class )));
         mTabHost.addTab(mTabHost.newTabSpec("second").setIndicator("IDENTITY CARD").setContent(new Intent(this , SecondActivity.class )));
         mTabHost.setCurrentTab(0);
 

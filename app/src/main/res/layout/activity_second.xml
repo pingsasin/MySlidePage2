@@ -26,6 +26,7 @@
             android:layout_height="wrap_content"
             android:paddingLeft="10dp"
             android:hint="ENTER 13 DIGITS"
+            android:maxLength="13"
             android:inputType="number"/>
 
 

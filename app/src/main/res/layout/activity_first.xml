@@ -26,7 +26,8 @@
             android:layout_height="wrap_content"
             android:paddingLeft="10dp"
             android:hint="ENTER 16 DIGITS"
-            android:inputType="number"/>
+            android:inputType="number"
+            android:maxLength="16"/>
 
 
     </LinearLayout>
